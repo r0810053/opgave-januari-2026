@@ -6,7 +6,8 @@ const prisma = new PrismaClient();
 const main = async () => {
     await prisma.teacher.deleteMany();
     await prisma.user.deleteMany();
-
+    await prisma.classroom.deleteMany();
+    
     const admin = await prisma.user.create({
         data: {
             username: 'admin',

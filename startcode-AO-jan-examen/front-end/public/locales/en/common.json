@@ -5,7 +5,7 @@
     "welcome": "Welcome",
     "nav": {
       "home": "Home",
-      "classrooms": "Classrooms",
+      "classrooms": "Add Classroom",
       "teachers": "Teachers",
       "add-teacher": "Add Teacher",
       "login": "Login",
@@ -25,5 +25,19 @@
   "home": {
     "title": "Good luck with the exam!",
     "description": ""
+  },
+  "classroom": {
+    "title": "Add classroom",
+    "label": {
+      "name": "Name"
+    },
+    "button": "Add classroom",
+    "validate": {
+      "name": "Name is required"
+    },
+    "success": "Added classroom with name {{className}} and ID {{id}}",
+    "duplicate": "Classroom already exists",
+    "unauthorized": "You are not authorized to view this page."
   }
+
 }
